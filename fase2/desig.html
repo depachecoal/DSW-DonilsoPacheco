@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .center{
+        display: block;
+        margin:0 auto;
+    }
+
+    .derecha{
+        display: flex;
+        justify-content: right;
+    }
+
+</style>
+<body>
+    <h1>Flex Box, Listas y enlaces</h1>
+    <a class="derecha" href="../index.html">&#8962 HOME &#8962</a>
+    <hr>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Temas
+                <ul>
+                    <li>Flexbox</li>
+                    <li>Listas</li>
+                    <li>Enlaces</li>
+                </ul>
+            </li>
+            <li>Recursos
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                </ul>
+            </li>
+            <li>Aprendizaje
+                <ul>
+                    <li>MockUp</li>
+                    <li>Actividad 2</li>
+                </ul>
+            </li>
+            <li>Acerca de</li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <h2>Propósito del sitio</h2>
+            <p>Este sitio se realiza para poner en práctica la formación en la asignatura <b>Diseño de páginas web</b> de la UNAD.</p>
+            <p>En esta ocasión, se creó la presente página para hacer uso de los componentes básicos de estructura HTML, a saber: Títulos, Regiones, Listas y Enlaces. Representados con los siguientes símbolos:</p>
+            <ul>
+                <li>Títulos: h1, h2, h3</li>
+                <li>Regiones: nav, main, section, article, footer.</li>
+                <li>Enlaces: a, img.</li>
+                <li>Listas: li, ul.</li>
+            </ul>
+        </section>
+        <article>
+            <h2>Investigación</h2>
+            <h3>Flexbox</h3>
+                <p>Flexbox es un método de diseño unidimensional para organizar elementos en filas o columnas. Los elementos se
+                    flexionan (expanden) para llenar espacio adicional o se encogen para caber en espacios más pequeños. Este artículo
+                    explica todos los fundamentos.</p>
+                <p>Aparece en respuesta a conseguir cosas como:</p>
+                <ul>
+                    <li>Centrar verticalmente un bloque de contenido dentro de su padre.</li>
+                    <li>Hacer que todos los hijos de un contenedor ocupen la misma cantidad de ancho / alto disponible, independientemente de cuánto ancho / alto esté disponible.</li>
+                    <li>Hacer que todas las columnas en un diseño de varias columnas adopten la misma altura incluso si contienen una cantidad diferente de contenido.</li>
+                </ul>
+                <img class="center" src="./img/modelo_cajas_flexibles_row.png" alt="modelo flexbox">
+                <a class="derecha" href="https://www.aulaclic.es/html/t_13_8.htm">Fuente: aulaclic.es</a>
+                <p>La figura consiste en:</p>
+                <ul>
+                    <li>El eje principal es el eje que se ejecuta en la dirección en la que se colocan los elementos flexibles (por ejemplo, como filas en la página o columnas en la página). El inicio y el final de este eje se denominan inicio principal y final principal.</li>
+                    <li>El eje transversal es el eje que corre perpendicular a la dirección en la que se colocan los elementos flexibles. El inicio y el final de este eje se denominan inicio transversal y final transversal.</li>
+                    <li>El elemento padre que tiene display: flex establecido en él (la <sección> en nuestro ejemplo) se llama contenedor flexible.</li>
+                    <li>Los elementos dispuestos como cajas flexibles dentro del contenedor flexible se denominan elementos flexibles (los elementos <article> en nuestro ejemplo).</li>
+                </ul>
+            <h3>Listas</h3>
+                <p>Las listas HTML se utilizan para presentar la lista de información de forma semántica y bien formada. Hay tres tipos diferentes de listas en HTML y cada uno tiene un propósito y un significado específicos.</p>
+                <p>Tipos de lista</p>
+                <ul>
+                    <li>Lista desordenada: se utiliza para crear una lista de elementos relacionados, sin ningún orden en particular.</li>
+                    <li>Lista ordenada: se utiliza para crear una lista de elementos relacionados, en un orden específico.</li>
+                    <li>Lista de descripción: se utiliza para crear una lista de términos y sus descripciones.</li>
+                </ul>
+                <p>Código y efecto de una lista:</p>
+                <img class="center" src="./img/listas.JPG" alt="">
+                <a class="derecha" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">Fuente: MDN</a>
+            <h3>Enlaces</h3>
+            <p>En HTML hay básicamente dos tipos de enlaces: los hipervínculos y los enlaces de recurso. Los hipervínculos son aquellos enlaces que permiten navegar entre diferentes páginas webs o saltar a partes de una misma página web. Los enlaces de recurso son indicaciones que se incrustan en el 'head' del HTML para indicarle al archivo que va a tomar recursos de un lugar externo</p>
+        </article>
+        <article>
+            <h2>Mock-Up</h2>
+            <p>El siguiente es el boceto de la interfaz gráfica propuestas para el diseño del sitio web. Se realizó en la aplicación SaaS Balsamiq. Contiene las divisiones básicas de la página incluyendo: Título, arbol de navegación, desarrollos, etc</p>
+            <img class="center" src="./img/MockUp.JPG" alt="Mockup del Boceto">
+        </article>
+        <article>
+            <h2>Referencias</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/tags/tag_link.asp">HTML link Tag : w3schools</a></li>
+                <li><a href="https://www.tutorialrepublic.com/html-tutorial/html-lists.php">Working with HTML Lists : tutorialrepublic</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Flexbox : MDN</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flexbox : css-tricks</a></li>
+            </ul>
+        </article>
+    </main>
+    <a class="derecha" href="../index.html">&#8962 HOME &#8962</a>
+    <hr>
+    <footer>
+        <span>doni0815@hotmail.com</span>
+        <br><span>skype: doni0815</span>
+    </footer>
+</body>
+</html>
